@@ -1,0 +1,6 @@
+app:
+  build: .
+  restart: always
+  tty: true
+  volumes:
+   - ./files:/files
